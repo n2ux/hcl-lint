@@ -1,11 +1,14 @@
 HCL-LINT
 ---
 
+Cloned from github.com/dwradcliffe/hcl-lint 
+
 ## Usage:
 
 ```sh
-$ go get github.com/dwradcliffe/hcl-lint
-$ go run /go/src/github.com/dwradcliffe/hcl-lint/lint.go folder_path config_file ...
+$ go get github.com/n2ux/hcllint
+$ hcllint - < config_file
+$ hcllint folder_path config_file ...
 ```
 
 Lint's an arbitrary number of input arguments. If a folder path is specified,
