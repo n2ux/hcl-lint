@@ -1,4 +1,4 @@
-module denzuko/hcllint
+module github.com/denzuko/hcllint
 
 go 1.20
 
